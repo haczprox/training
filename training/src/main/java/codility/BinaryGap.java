@@ -8,7 +8,7 @@ public class BinaryGap {
     private static List<Integer> positionsForOnes = new ArrayList<Integer>();
 
 
-    public static int solution(int n) {
+    public int solution(int n) {
 
         char[] binaryString = Integer.toBinaryString(n).toCharArray();
         System.out.println(binaryString);
@@ -37,7 +37,8 @@ public class BinaryGap {
     }
 
     public static void main(String[] args) {
+        BinaryGap bg = new BinaryGap();
         System.out.println("Solution for 32 is: ");
-        System.out.println(solution(1073741825));
+        System.out.println(bg.solution(1073741825));
     }
 }
