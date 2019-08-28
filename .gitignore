@@ -25,3 +25,7 @@ hs_err_pid*
 training/\.idea/
 
 *.iml
+
+training/src/main/java/codility/MinderaChallenge\.java
+
+training/src/main/java/codility/MinderaChallenge2\.java
